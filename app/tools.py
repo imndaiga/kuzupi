@@ -1,6 +1,5 @@
 from . import Settings
 from configparser import ConfigParser
-import socket
 import netifaces
 
 Config = ConfigParser()
