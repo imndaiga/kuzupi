@@ -91,3 +91,6 @@ ENV/
 # Ignore sublime project files
 *.sublime-project
 *.sublime-workspace
+
+# Ignore resin sync file
+.resin-sync.yml
