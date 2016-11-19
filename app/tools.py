@@ -1,9 +1,9 @@
-from . import Settings
+from flask import current_app
 from configparser import ConfigParser
 import netifaces
 
 Config = ConfigParser()
-Config.read(Settings().CONF_PATH)
+Config.read(current_app.config['CONF_PATH'])
 
 def config_section(sectionname):
 	sectiondict = {}
